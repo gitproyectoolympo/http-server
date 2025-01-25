@@ -76,7 +76,7 @@ with the provided Dockerfile.
 |`-U` or `--utc` |Use UTC time format in log messages.| |
 |`--log-ip` |Enable logging of the client's IP address |`false` |
 |`-P` or `--proxy` |Proxies all requests which can't be resolved locally to the given url. e.g.: -P http://github.com/gitproyectoolympo/proyectoolympo | |
-|`--proxy-options` |Pass proxy [options](https://github.com/http-party/node-http-proxy#options) using nested dotted objects. e.g.: --proxy-options.secure false |
+|`--proxy-options` |Pass proxy [options](https://github.com/gitproyectoolympo/node-http-proxy) using nested dotted objects. e.g.: --proxy-options.secure false |
 |`--username` |Username for basic authentication | |
 |`--password` |Password for basic authentication | |
 |`-S`, `--tls` or `--ssl` |Enable secure request serving with TLS/SSL (HTTPS)|`false`|
