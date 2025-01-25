@@ -75,7 +75,7 @@ with the provided Dockerfile.
 |`-c` |Set cache time (in seconds) for cache-control max-age header, e.g. `-c10` for 10 seconds. To disable caching, use `-c-1`.|`3600` |
 |`-U` or `--utc` |Use UTC time format in log messages.| |
 |`--log-ip` |Enable logging of the client's IP address |`false` |
-|`-P` or `--proxy` |Proxies all requests which can't be resolved locally to the given url. e.g.: -P http://someurl.com | |
+|`-P` or `--proxy` |Proxies all requests which can't be resolved locally to the given url. e.g.: -P http://github.com/gitproyectoolympo/proyectoolympo | |
 |`--proxy-options` |Pass proxy [options](https://github.com/http-party/node-http-proxy#options) using nested dotted objects. e.g.: --proxy-options.secure false |
 |`--username` |Username for basic authentication | |
 |`--password` |Password for basic authentication | |
@@ -101,7 +101,7 @@ To implement a catch-all redirect, use the index page itself as the proxy with:
 http-server --proxy http://localhost:8080?
 ```
 
-Note the `?` at the end of the proxy URL. Thanks to [@houston3](https://github.com/houston3) for this clever hack!
+Note the `?` at the end of the proxy URL. Thanks to [gitproyectoolympo](https://github.com/gitproyectoolympo) Les saluda MANH {manunegrete}
 
 ## TLS/SSL
 
